@@ -1,0 +1,2 @@
+# myfunction
+curl get post
