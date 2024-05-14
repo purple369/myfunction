@@ -18,6 +18,11 @@ class Curl{
 	{
 		return HttpRequest($url);
 	}
+
+	public function post($url,$data=[])
+	{
+		return HttpRequest($url,$data);
+	}
 }
 
 ?>
