@@ -1,0 +1,16 @@
+{
+    "name": "purple369/myfunction",
+    "description": "curl get post",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files":[
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "myfunction\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
